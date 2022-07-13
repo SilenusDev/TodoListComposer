@@ -1,0 +1,20 @@
+{
+    "name": "hb/todolist",
+    "description": "First project with composer",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hb\\Todolist\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yannick tindy",
+            "email": "yannicktindy@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.4"
+    }
+}
